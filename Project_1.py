@@ -1,9 +1,9 @@
 def print_hand(hand, name='Tamu'):
     # Tetapkan list hands ke variable hands 
-    hands = ["Batu","Kertas","Gudnting"]
+    hands = ["Batu","Kertas","Gunting"]
     
     # Memperbarui dengan menggunakan element dari variable hands 
-    print(name + ' memilih: ' + hands)
+    print(name + ' memilih: ' + hands[hand])
 
 print('Memulai Permainan Batu Kertas Gunting!')
 player_name = input('Masukkan nama Anda: ')
