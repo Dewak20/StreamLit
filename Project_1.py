@@ -1,12 +1,17 @@
-print("hello")
+def print_hand(hand, name='Tamu'):
+    # Tetapkan list hands ke variable hands 
+    hands = ["Batu","Kertas","Gudnting"]
+    
+    # Memperbarui dengan menggunakan element dari variable hands 
+    print(name + ' memilih: ' + hands)
 
-# Python Program to calculate the square root
+print('Memulai Permainan Batu Kertas Gunting!')
+player_name = input('Masukkan nama Anda: ')
+# Cetak 'Pilih tangan: (0: Batu, 1: Kertas, 2: Gunting)'
+print("Pilih tangan: (0: Batu, 1: Kertas, 2: Gunting)")
 
-# Note: change this value for a different result
-num = 8 
+# Dapatkan input, ubah, dan tetapkan ke variable player_hand 
+player_hand = int(input("Masukkan nomor (0-2): "))
 
-# To take the input from the user
-#num = float(input('Enter a number: '))
-
-num_sqrt = num ** 0.5
-print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))
+# Ubah argument pertama ke player_hand
+print_hand(player_hand, player_name)
