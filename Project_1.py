@@ -22,3 +22,5 @@ if validate(player_hand):
     print_hand(player_hand,player_name)
 else:
     print("Mohon masukkan nomor yang benar")
+
+#Test 1
